@@ -1,6 +1,8 @@
 # Get Token
 <img src = "https://img.shields.io/badge/Made%20Using-JavaScript%20%26%20%E2%9D%A4-green"><br>
 Ever got annoyed of constantly going through hard to remember steps to get your Discord token, for whatever it is? Well that's why I made these two scripts to simply do everything for you.
+I've encoded the code in base64 so it wont take up as much space in the readme file, if you want to get the actual data behind the base64 go to this site `https://www.base64decode.org/` to decode it.
+All source code is in the other files if you'd like to read it without decoding it too.
 
 # Help & Support
 Simply ask on the issues page and I'll assist you as quick as I can
@@ -8,7 +10,9 @@ Simply ask on the issues page and I'll assist you as quick as I can
 # Discord Client (DESKTOP)
 Click `CTRL+SHIFT+I` and click on the console tab, once you've done that paste the code below. (All open source in the other files for you to view)
 ```
-OK
+var encoded = 'bGV0IHBvcHVwOwpwb3B1cCA9IHdpbmRvdy5vcGVuKCcnLCAnJywgYHRvcD0wLGxlZnQ9JHtzY3JlZW4ud2lkdGgtODAwfSx3aWR0aD04NTAsaGVpZ2h0PTE1MGApOwp0b2tlbiA9IHBvcHVwLmxvY2FsU3RvcmFnZS50b2tlbiAvLyBHRVQgVE9LRU4gIEZST00gRElTQ09SRCBTVE9SQUdFCnRva2VuID0gdG9rZW4uc2xpY2UoMSwgLTEpOyAvLyBSRU1PVkUgUVVPVEFUSU9OUw=='
+var decoded = atob(encoded)
+eval(decoded);
 ```
 
 # Discord Browser (CHROME/BRAVE/OTHER)
